@@ -1,0 +1,28 @@
+{
+  "name": "aulas-prog",
+  "module": "src/main.ts",
+  "scripts": {
+    "start": "bun --hot src/main.ts",
+    "dev": "bun --hot src/main.ts",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "@types/bun": "latest",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^16.5.0",
+    "prettier": "^3.7.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.18.1"
+  }
+}
